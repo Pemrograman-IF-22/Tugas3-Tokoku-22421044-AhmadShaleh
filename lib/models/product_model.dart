@@ -24,5 +24,6 @@ class Product {
       category: json['category'],
       image: json['image'],
     );
+    
   }
 }
