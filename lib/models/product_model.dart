@@ -1,5 +1,5 @@
 class Product {
-  final String id;
+  final int id;
   final String title;
   final double price;
   final String description;
@@ -24,6 +24,5 @@ class Product {
       category: json['category'],
       image: json['image'],
     );
-    
   }
 }
